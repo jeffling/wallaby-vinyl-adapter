@@ -13,6 +13,7 @@
     "through": "^2.3.6",
     "vinyl-source-stream": "^1.0.0"
   },
+  "repository": "https://github.com/jeffling/wallaby-vinyl-adapter",
   "devDependencies": {
     "gulp-header": "^1.2.2",
     "gulp-tap": "^0.1.3",
