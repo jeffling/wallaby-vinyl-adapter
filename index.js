@@ -3,6 +3,7 @@ var through = require('through');
 var source = require('vinyl-source-stream');
 var getRawBody = require('raw-body');
 var path = require('path');
+var buffer = require('vinyl-buffer');
 
 function wallabyVinylAdaptor(gulpPlugin) {
     return function vinylPreprocessor(file, done) {
@@ -18,6 +19,7 @@ function wallabyVinylAdaptor(gulpPlugin) {
 
         inputStream
             .pipe(source(filename))
+            .pipe(buffer())
             .pipe(gulpPlugin)
             .pipe(outputStream);
 
@@ -30,7 +32,7 @@ function wallabyVinylAdaptor(gulpPlugin) {
                 })
             }
             else if (data.isBuffer()) {
-                result.code += data;
+                result.code += data.contents.toString();
             }
         });
 
