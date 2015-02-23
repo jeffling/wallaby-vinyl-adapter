@@ -1,6 +1,6 @@
 {
   "name": "wallaby-vinyl-adapter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Use gulp plugins with wallaby.js",
   "main": "index.js",
   "scripts": {
