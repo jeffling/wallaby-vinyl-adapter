@@ -1,5 +1,5 @@
 {
-  "name": "wallaby-vinyl-preprocessor",
+  "name": "wallaby-vinyl-adapter",
   "version": "0.0.0",
   "description": "Use gulp plugins with wallaby.js",
   "main": "index.js",
