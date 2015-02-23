@@ -1,7 +1,7 @@
 # wallaby-vinyl-adapter
 This simple vinyl adapter will allow you to use gulp/vinyl plugins with [wallaby.js](http://wallabyjs.com). 
 
-This is early on development, so any issues and pull requests are greatly appreciate.
+This is early in development, so any issues and pull requests are greatly appreciate.
 
 ## USAGE
 The adapter takes in a gulp/vinyl plugin and returns `function(file, done)`. Just pass in the options like you would in gulp.
