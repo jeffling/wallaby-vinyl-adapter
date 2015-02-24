@@ -9,14 +9,16 @@
   "author": "Jeff Ling <jeff@bench.co>",
   "license": "ISC",
   "dependencies": {
-    "through": "^2.3.6",
-    "vinyl-source-stream": "^1.0.0",
+    "gulp-plumber": "^0.6.6",
     "raw-body": "^1.3.3",
-    "vinyl-buffer": "^1.0.0"
+    "through": "^2.3.6",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.0.0"
   },
   "repository": "https://github.com/jeffling/wallaby-vinyl-adapter",
   "devDependencies": {
     "gulp-header": "^1.2.2",
+    "gulp-rename": "^1.2.0",
     "mocha": "^2.1.0"
   }
 }
