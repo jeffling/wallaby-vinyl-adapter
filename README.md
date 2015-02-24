@@ -1,3 +1,4 @@
+![](https://travis-ci.org/jeffling/wallaby-vinyl-adapter.svg)
 # wallaby-vinyl-adapter
 This simple vinyl adapter will allow you to use gulp/vinyl plugins with [wallaby.js](http://wallabyjs.com). 
 
